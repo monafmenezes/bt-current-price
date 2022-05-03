@@ -1,10 +1,10 @@
 <template>
-  <div class="w-full">
+  <div class="w-full flex-col">
     <d-header />
     
-    <h3 class="text-2xl text-center mt-16 font-light">
+    <h2 class="text-2xl text-center mt-16 font-light">
       Current Bitcoin price in real time.
-    </h3>
+    </h2>
 
     <section class="mt-20 flex justify-center items-center">
       <img class="h-16 w-16 mr-12 animate-pulse" src="../static/Subtract.svg" alt="bitcoin" />
@@ -21,6 +21,8 @@
         <d-button color="bg-green">search by date</d-button>
       </router-link>
     </section>
+
+    <h5 class="text-sm text-center mt-40">Copyright © {{ newDate }}</h5>
   </div>
 </template>
 
@@ -33,6 +35,11 @@ export default {
     return {
       valueBit: "195.578,92BRL",
     };
+  },
+  computed: {
+    newDate() {
+      return new Date().getFullYear()
+    },
   },
 };
 </script>

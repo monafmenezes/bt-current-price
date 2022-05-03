@@ -1,7 +1,7 @@
 <template>
   <button
     :class="color"
-    class="w-60 h-9 rounded border-2 border-black text-black"
+    class="w-60 h-9 rounded border-2 border-black text-black hover:brightness-90"
   >
     <slot />
   </button>
