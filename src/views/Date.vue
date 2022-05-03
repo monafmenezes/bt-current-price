@@ -1,11 +1,13 @@
 <template>
-  <router-view />
+  <div>Insert Date</div>
 </template>
 
 <script>
 export default {
-  name: "App",
-};
+
+}
 </script>
 
-<style></style>
+<style>
+
+</style>

@@ -1,11 +1,12 @@
 <template>
-  <router-view />
+  <div>Other Currencies</div>
 </template>
 
 <script>
 export default {
-  name: "App",
-};
+
+}
 </script>
 
-<style></style>
+<style>
+</style>
