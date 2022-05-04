@@ -12,7 +12,7 @@
         src="../static/Subtract.svg"
         alt="bitcoin"
       />
-      <h3 class="text-2xl">{{ valueBit }} BRL</h3>
+      <h3 class="text-2xl">R$  {{ valueBit }} BRL</h3>
     </section>
 
     <section class="w-full mt-20 flex sm:flex-col lg:flex-row sm:items-center justify-center">
