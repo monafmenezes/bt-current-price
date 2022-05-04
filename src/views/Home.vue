@@ -22,24 +22,20 @@
       </router-link>
     </section>
 
-    <h5 class="text-sm text-center mt-40">Copyright © {{ newDate }}</h5>
+    <d-footer class="mt-40"/>
   </div>
 </template>
 
 <script>
 import DHeader from "../components/DHeader.vue";
 import DButton from "../components/DButton.vue";
+import DFooter from "../components/DFooter.vue";
 export default {
-  components: { DHeader, DButton },
+  components: { DHeader, DButton, DFooter },
   data() {
     return {
       valueBit: "195.578,92BRL",
     };
-  },
-  computed: {
-    newDate() {
-      return new Date().getFullYear()
-    },
   },
 };
 </script>
