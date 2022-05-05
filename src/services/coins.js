@@ -6,12 +6,12 @@ export default {
   },
   listOthers: () => {
     return http.get(
-      "https://api.coingecko.com/api/v3/coins/markets?vs_currency=brl&order=market_cap_desc&per_page=250&page=1&sparkline=true"
+      "/coins/markets?vs_currency=brl&order=market_cap_desc&per_page=250&page=1&sparkline=true"
     );
   },
   listDacxi: () => {
     return http.get(
-      "https://api.coingecko.com/api/v3/coins/markets?vs_currency=brl&ids=dacxi&order=market_cap_desc&sparkline=false"
+      "/coins/markets?vs_currency=brl&ids=dacxi&order=market_cap_desc&sparkline=false"
     );
   },
 };

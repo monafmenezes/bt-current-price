@@ -42,28 +42,40 @@ import DButton from "../components/DButton.vue";
 import DFooter from "../components/DFooter.vue";
 import DHeader from "../components/DHeader.vue";
 import DCard from "../components/DCard.vue";
+import { http } from "../services/config";
 export default {
   components: { DHeader, DButton, DFooter, DCard },
   data() {
     return {
       requestCoin: false,
       info: { name: "Luna", url: "", date: "", price: 0, time: "" },
+      valueDate: ''
     };
   },
   methods: {
     requestAPi() {
-
-      
-      console.log(this.info.date)
       const [year, mounth, day] = this.info.date.split("-");
       const [hours, minutes] = this.info.time.split(":");
-      const dateRequest = new Date(+year, mounth - 1, +day, +hours, +minutes);
-      const unixTimestamp = Math.floor(dateRequest.getTime() / 1000);
+      const dateRequest = new Date(
+        +year,
+        mounth - 1,
+        +day,
+        +hours,
+        +minutes
+      );
+      const unixTimestamp = Date.parse(dateRequest) / 1000;
       const dateAtt = new Date();
-      console.log(dateRequest);
-      console.log(dateAtt)
+      const unixDateAtt = Date.parse(dateAtt) / 1000;
 
-      const unixDateAtt = Math.floor(dateAtt.getTime() / 1000);
+      http.get(`/coins/${this.info.name}/market_chart/range?vs_currency=brl&from=${unixTimestamp}&to=${unixDateAtt}`)
+      .then((response) => {
+        this.info.price = response.data.prices[0][1]
+        console.log(this.info)
+       
+     
+      })
+
+
 
       console.log(unixDateAtt);
 
