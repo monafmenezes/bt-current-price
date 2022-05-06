@@ -4,46 +4,46 @@
     <h2 class="text-2xl text-center mt-16 mb-16 font-light">
       Other Currencies
     </h2>
+    <p>Select the coin:</p>
 
-    <transition-group name="fade">
-      <ul class="flex flex-row flex-wrap justify-center">
-        <li class="flex flex-col justify-center items-center m-7">
-          <img
-            class="w-20 h-20 mb-3 animate-pulse"
-            :src="valueDacxi.image"
-            :alt="valueDacxi.id"
-          />
-          <router-link
-            class="font-semibold text-xl hover:text-orange"
-            to="/date"
-            >{{ valueDacxi.symbol }}</router-link
-          >
-          <span class="text-sm text-center text-green"
-            >R$ {{ valueDacxi.current_price }} BRL</span
-          >
-        </li>
-
-        <li
-          class="flex flex-col justify-center items-center m-7"
-          v-for="coin in valuesCoins"
-          :key="coin.id"
+    <ul class="flex flex-row flex-wrap justify-center">
+      <li class="flex flex-col justify-center items-center m-7">
+        <img
+          class="w-20 h-20 mb-3 animate-pulse"
+          :src="valueDacxi.image"
+          :alt="valueDacxi.id"
+        />
+        <router-link
+          class="font-semibold text-xl hover:text-orange"
+          :to="{ name: 'Date', params: { id: 'dacxi' } }"
+          >{{ valueDacxi.symbol }}</router-link
         >
-          <img
-            class="w-20 h-20 mb-3 animate-pulse"
-            :src="coin.image"
-            :alt="coin.id"
-          />
-          <router-link
-            class="font-semibold text-xl hover:text-orange transition duration-150"
-            to="/date"
-            >{{ coin.symbol }}</router-link
-          >
-          <span class="text-sm text-center text-green"
-            >R$ {{ coin.current_price }} BRL</span
-          >
-        </li>
-      </ul>
-    </transition-group>
+        <span class="text-sm text-center text-green"
+          >R$ {{ valueDacxi.current_price }} BRL</span
+        >
+      </li>
+
+      <li
+        class="flex flex-col justify-center items-center m-7"
+        v-for="coin in valuesCoins"
+        :key="coin.id"
+      >
+        <img
+          class="w-20 h-20 mb-3 animate-pulse"
+          :src="coin.image"
+          :alt="coin.id"
+        />
+        <router-link
+          class="font-semibold text-xl hover:text-orange transition duration-150"
+          :to="{ name: 'Date', params: { id: coin.id } }"
+          >{{ coin.symbol }}</router-link
+        >
+        <span class="text-sm text-center text-green"
+          >R$ {{ coin.current_price }} BRL</span
+        >
+      </li>
+    </ul>
+
     <router-link to="/" class="mx-auto mt-5">
       <d-button>home</d-button>
     </router-link>
@@ -98,6 +98,4 @@ export default {
   },
 };
 </script>
-<style>
-
-</style>
+<style></style>

@@ -6,12 +6,10 @@
 export default {
   computed: {
     newDate() {
-      return new Date().getFullYear()
+      return new Date().getFullYear();
     },
   },
-}
+};
 </script>
 
-<style>
-
-</style>
+<style></style>

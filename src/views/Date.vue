@@ -3,6 +3,7 @@
     <d-header />
     <section class="flex flex-col items-center">
       <h2 class="text-2xl text-center mt-16 mb-10 font-light">Insert Date</h2>
+      <p>{{ $route.params.id }}</p>
 
       <form
         class="flex flex-col items-center mt-16"
@@ -17,6 +18,7 @@
           <d-button
             class="sm:mb-7 lg:mb-0 lg:mr-14"
             @click.prevent="requestAPi()"
+            @click="requestCoin = true"
             >search</d-button
           >
           <router-link to="/">
@@ -48,38 +50,26 @@ export default {
   data() {
     return {
       requestCoin: false,
-      info: { name: "Luna", url: "", date: "", price: 0, time: "" },
-      valueDate: ''
+      info: { name: this.$route.params.id, date: "", price: 0, time: "" },
+      valueDate: "",
     };
   },
   methods: {
     requestAPi() {
       const [year, mounth, day] = this.info.date.split("-");
       const [hours, minutes] = this.info.time.split(":");
-      const dateRequest = new Date(
-        +year,
-        mounth - 1,
-        +day,
-        +hours,
-        +minutes
-      );
+      const dateRequest = new Date(+year, mounth - 1, +day, +hours, +minutes);
       const unixTimestamp = Date.parse(dateRequest) / 1000;
       const dateAtt = new Date();
       const unixDateAtt = Date.parse(dateAtt) / 1000;
 
-      http.get(`/coins/${this.info.name}/market_chart/range?vs_currency=brl&from=${unixTimestamp}&to=${unixDateAtt}`)
-      .then((response) => {
-        this.info.price = response.data.prices[0][1]
-        console.log(this.info)
-       
-     
-      })
-
-
-
-      console.log(unixDateAtt);
-
-      console.log(unixTimestamp);
+      http
+        .get(
+          `/coins/${this.$route.params.id}/market_chart/range?vs_currency=brl&from=${unixTimestamp}&to=${unixDateAtt}`
+        )
+        .then((response) => {
+          this.info.price = response.data.prices[0][1];
+        });
     },
   },
 };

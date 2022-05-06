@@ -12,19 +12,23 @@
         src="../static/Subtract.svg"
         alt="bitcoin"
       />
-      <h3 class="text-2xl">R$  {{ valueBit }} BRL</h3>
+      <h3 class="text-2xl">R$ {{ valueBit }} BRL</h3>
     </section>
 
-    <section class="w-full mt-20 flex sm:flex-col lg:flex-row sm:items-center justify-center">
+    <section
+      class="w-full mt-20 flex sm:flex-col lg:flex-row sm:items-center justify-center"
+    >
+      <router-link :to="{ name: 'Date', params: { id: 'bitcoin' } }">
+        <d-button color="bg-green" class="sm:mb-7 lg:mb-0 lg:mr-14"
+          >search by date</d-button
+        >
+      </router-link>
       <router-link to="/other">
-        <d-button class="sm:mb-7 lg:mb-0 lg:mr-14">other currencies</d-button>
-      </router-link>
-      <router-link to="/date">
-        <d-button color="bg-green">search by date</d-button>
+        <d-button>other currencies</d-button>
       </router-link>
     </section>
 
-    <d-footer class="mt-32"/>
+    <d-footer class="mt-32" />
   </div>
 </template>
 
