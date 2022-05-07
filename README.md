@@ -68,7 +68,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Axios](https://axios-http.com/ptbr/docs/intro)
 - [Vue-router](https://router.vuejs.org/installation.html)
 
-### Planejamento
+### 📔 Planejamento
 
 A seguir o link do planejamento do trello e layout do figma: 
 
