@@ -1,7 +1,6 @@
  
  ![Captura de tela de 2022-05-07 00-57-49](https://user-images.githubusercontent.com/85262397/167237342-9948472b-546f-4f86-aa96-90eaab6451dc.png)
  
- # BTCurrent Price 
 
 <h1 align="center">
     <a href="https://bt-current-price.vercel.app/">🔗 BTCurrent Price</a>
