@@ -5,7 +5,7 @@
 <h1 align="center">
     <a href="https://bt-current-price.vercel.app/">🔗 BTCurrent Price</a>
 </h1>
-<p align="center">🚀 Aplicação que mostra em tempo real o valor do Bitcoin BRL e outras criptomoedas como: Atom, Luna, Eth e Dacxi. Neste você também consegue pesquisar o valor do preço em uma data e hora fornecidas.</p>
+<p align="center">🚀 Aplicação que mostra em tempo real o valor do Bitcoin BRL e outras criptomoedas como: Atom, Luna, Eth e Dacxi. Consumindo a Crypto API [CoinGecko](https://www.coingecko.com/en/api/documentation). Neste você também consegue pesquisar o valor do preço em uma data e hora fornecidas.</p>
 <p align="center">🚀 Application that shows in real time the value of Bitcoin BRL and other cryptocurrencies such as: Atom, Luna, Eth and Dacxi. Here you can also search for the price value at a specific date and time.</p>
 
 ### ✅ Features
@@ -67,6 +67,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Tailwind](https://tailwindcss.com/docs/preflight)
 - [Axios](https://axios-http.com/ptbr/docs/intro)
 - [Vue-router](https://router.vuejs.org/installation.html)
+- [CoinGecko - API](https://www.coingecko.com/en/api/documentation)
 
 ### 📔 Planejamento
 
