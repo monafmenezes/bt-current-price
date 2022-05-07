@@ -28,7 +28,9 @@ Vercel: [https://bt-current-price.vercel.app](https://bt-current-price.vercel.ap
 ![Captura de tela de 2022-05-07 01-00-03](https://user-images.githubusercontent.com/85262397/167237388-fd5b1141-4ed5-4624-9e5c-f5a6c72d8eaa.png)
 
 #### Página para solicitar o valor por data e hora fornecidas 
+
 ![Captura de tela de 2022-05-07 01-00-53](https://user-images.githubusercontent.com/85262397/167237476-b7b12269-0d4b-44f5-8a98-503633ae59a1.png)
+
 ![Captura de tela de 2022-05-07 01-01-49](https://user-images.githubusercontent.com/85262397/167237479-89c76de8-3e0f-410b-885a-5e61c91afdbd.png)
 
 ### ✅ Pré-requisitos e como rodar a aplicação/testes
@@ -54,7 +56,6 @@ $ yarn dev
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 ```
-### ✅ Tecnologias utilizadas
 
 ### 🛠 Tecnologias
 
