@@ -75,4 +75,6 @@ A seguir o link do planejamento do trello e layout do figma:
 - [Trello](https://trello.com/invite/b/16WytOu0/29c0dde7b5f4e65631f737162f6cdcf6/btcurrent-price)
 - [Figma](https://www.figma.com/file/I0xEedCll1dsKIt43AZMHh/BTCurrent-Price?node-id=0%3A1) - Houveram algumas mudanças no layout inicial para o atual.
 
+### ✅ Autor
+
 
