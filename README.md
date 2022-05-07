@@ -5,8 +5,8 @@
 <h1 align="center">
     <a href="https://bt-current-price.vercel.app/">🔗 BTCurrent Price</a>
 </h1>
-<p align="center">🚀 Aplicação que mostra em tempo real o valor do Bitcoin BRL e outras criptomoedas como: Atom, Luna, Eth e Dacxi. Neste você também consegue pesquisar o valor do preço em uma data e hora fornecidas.</p>
-<p align="center">🚀 Application that shows in real time the value of Bitcoin BRL and other cryptocurrencies such as: Atom, Luna, Eth and Dacxi. Here you can also search for the price value at a specific date and time.</p>
+<p align="center">🚀 Aplicação que mostra em tempo real o valor do Bitcoin BRL e outras criptomoedas como: Atom, Luna, Eth e Dacxi. Consumindo a Crypto API <a href="https://www.coingecko.com/en/api/documentation">CoinGecko</a>. Neste você também consegue pesquisar o valor do preço em uma data e hora fornecidas.</p>
+<p align="center">🚀 Application that shows in real time or value of Bitcoin BRL and other cryptocurrencies such as: Atom, Luna, Eth and Dacxi. Consuming a Crypto <a href="https://www.coingecko.com/en/api/documentation">CoinGecko</a> API. Here you can also search for the price value at a given date and time.</p>
 
 ### ✅ Features
 
@@ -39,6 +39,12 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Vue.js](https://vuejs.org/guide/introduction.html), [Yarn](https://classic.yarnpkg.com/en/docs/install#debian-stable). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
+### 📱 Mobile 
+![Captura de tela de 2022-05-07 09-05-43](https://user-images.githubusercontent.com/85262397/167253801-80026ecc-5e3e-4e93-bb9a-e9092c185b8b.png)
+![Captura de tela de 2022-05-07 09-06-25](https://user-images.githubusercontent.com/85262397/167253810-efaf59d7-b6d3-4984-907f-1b63f29aa37b.png)
+![Captura de tela de 2022-05-07 09-06-39](https://user-images.githubusercontent.com/85262397/167253815-957a2e44-ddeb-44d0-8252-699d3c9da137.png)
+![Captura de tela de 2022-05-07 09-07-02](https://user-images.githubusercontent.com/85262397/167253820-8ed56462-831e-485f-acf2-441adfb98cf0.png)
+
 ### 🎲 Rodando o Frontend(Vue.js)
 
 ```bash
@@ -67,6 +73,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [Tailwind](https://tailwindcss.com/docs/preflight)
 - [Axios](https://axios-http.com/ptbr/docs/intro)
 - [Vue-router](https://router.vuejs.org/installation.html)
+- [CoinGecko - API](https://www.coingecko.com/en/api/documentation)
 
 ### 📔 Planejamento
 
