@@ -3,7 +3,7 @@
     <d-header />
     <section class="flex flex-col items-center">
       <h2 class="text-2xl text-center mt-16 mb-10 font-light">Insert Date</h2>
-      <p>{{ $route.params.id }}</p>
+      <p class="font-bold" v-if="!requestCoin">{{ $route.params.id.toUpperCase() }}</p>
 
       <form
         class="flex flex-col items-center mt-16"
@@ -35,7 +35,7 @@
         >new request</d-button
       >
     </section>
-    <d-footer class="mt-32" />
+    <d-footer class="mt-24" />
   </div>
 </template>
 

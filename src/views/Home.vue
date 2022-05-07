@@ -28,7 +28,7 @@
       </router-link>
     </section>
 
-    <d-footer class="mt-32" />
+    <d-footer class="mt-28" />
   </div>
 </template>
 

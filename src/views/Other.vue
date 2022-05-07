@@ -47,7 +47,7 @@
     <router-link to="/" class="mx-auto mt-5">
       <d-button>home</d-button>
     </router-link>
-    <d-footer class="mt-28" />
+    <d-footer class="mt-20" />
   </div>
 </template>
 
@@ -88,8 +88,8 @@ export default {
     },
     attCoin() {
       setInterval(() => {
-        this.getDacxi();
         this.getCoin();
+        this.getDacxi();
       }, 10000);
     },
   },
