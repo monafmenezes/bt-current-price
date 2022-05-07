@@ -37,5 +37,23 @@ Antes de começar, você vai precisar ter instalado em sua máquina as seguintes
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Vue.js](https://vuejs.org/guide/introduction.html), [Yarn](https://classic.yarnpkg.com/en/docs/install#debian-stable). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
 
+### 🎲 Rodando o Frontend(Vue.js)
+
+```bash
+# Clone este repositório
+$ git clone <git@github.com:monafmenezes/bt-current-price.git>
+
+# Acesse a pasta do projeto no terminal
+$ cd bt-current-price
+
+# Instale as dependências
+$ yarn
+
+# Execute a aplicação em modo de desenvolvimento
+$ yarn dev
+
+# O servidor inciará na porta:3000 - acesse <http://localhost:3000>
+```
+
 
 
