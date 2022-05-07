@@ -31,6 +31,11 @@ Vercel: [https://bt-current-price.vercel.app](https://bt-current-price.vercel.ap
 ![Captura de tela de 2022-05-07 01-00-53](https://user-images.githubusercontent.com/85262397/167237476-b7b12269-0d4b-44f5-8a98-503633ae59a1.png)
 ![Captura de tela de 2022-05-07 01-01-49](https://user-images.githubusercontent.com/85262397/167237479-89c76de8-3e0f-410b-885a-5e61c91afdbd.png)
 
+###✅ Pré-requisitos e como rodar a aplicação/testes
 
+<p>Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+[Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Vue.js](https://vuejs.org/guide/introduction.html), [Yarn](https://classic.yarnpkg.com/en/docs/install#debian-stable). 
+Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
+</p>
 
 
