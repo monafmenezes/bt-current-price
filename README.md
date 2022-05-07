@@ -1,7 +1,9 @@
-# Vue 3 + Vite
+ # BTCurrent Price 
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+<img  src="https://user-images.githubusercontent.com/85262397/167220482-a2200fa0-9d90-4dd4-a524-0e38517cd30a.png" alt="btcurrent price" style="margin: auto;"/>
 
-## Recommended IDE Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+<h1 align="center">
+    <a href="">🔗 BTCurrent Price</a>
+</h1>
+<p align="center">🚀 Aplicação que mostra em tempo real o valor do Bitcoin BRL e outras criptomoedas como: Atom, Luna, Eth e Dacxi. Neste você também consegue pesquisar o valor do preço em uma data específica.</p>
+<p align="center">🚀 Application that shows in real time or value of Bitcoin BRL and other cryptocurrencies such as: Atom, Luna, Eth and Dacxi. In this you can also search the price value in a specific data.</p>
