@@ -76,5 +76,12 @@ A seguir o link do planejamento do trello e layout do figma:
 - [Figma](https://www.figma.com/file/I0xEedCll1dsKIt43AZMHh/BTCurrent-Price?node-id=0%3A1) - Houveram algumas mudanças no layout inicial para o atual.
 
 ### ✅ Autor
+<img style="border-radius: 50%;" src="https://github.com/monafmenezes.png" width="100px;" alt=""/>
+https://github.com/${username}.png
+
+Feito por Monalisa Menezes, entre em contato!
+<a href = "mailto:psimonafmenezes@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+    <a href="https://www.linkedin.com/in/monalisafmenezes" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a> 
+    <a href="https://twitter.com/monafmenezes" target="_blank"><img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" target="_blank"></a> 
 
 
