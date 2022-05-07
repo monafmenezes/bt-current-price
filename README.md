@@ -19,15 +19,15 @@
 
 Vercel: [https://bt-current-price.vercel.app](https://bt-current-price.vercel.app)
 
-#### Página Home
+#### 🏠 Página Home
 
 ![Captura de tela de 2022-05-07 00-53-10](https://user-images.githubusercontent.com/85262397/167237356-2fbce495-477f-4fe0-8f68-567e8510f134.png)
 
-#### Página outras criptomoedas
+#### 💰 Página outras criptomoedas
 
 ![Captura de tela de 2022-05-07 01-00-03](https://user-images.githubusercontent.com/85262397/167237388-fd5b1141-4ed5-4624-9e5c-f5a6c72d8eaa.png)
 
-#### Página para solicitar o valor por data e hora fornecidas 
+#### 📅 Página para solicitar o valor por data e hora fornecidas 
 
 ![Captura de tela de 2022-05-07 01-00-53](https://user-images.githubusercontent.com/85262397/167237476-b7b12269-0d4b-44f5-8a98-503633ae59a1.png)
 
