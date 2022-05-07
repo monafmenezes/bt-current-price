@@ -68,7 +68,6 @@ $ yarn dev
 As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
-- [Node.js](https://nodejs.org/en/)
 - [Vue.js](https://vuejs.org/guide/introduction.html)
 - [Tailwind](https://tailwindcss.com/docs/preflight)
 - [Axios](https://axios-http.com/ptbr/docs/intro)
