@@ -63,9 +63,16 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 - [Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
 - [Node.js](https://nodejs.org/en/)
-- [Vvue.js](https://vuejs.org/guide/introduction.html)
+- [Vue.js](https://vuejs.org/guide/introduction.html)
 - [Tailwind](https://tailwindcss.com/docs/preflight)
 - [Axios](https://axios-http.com/ptbr/docs/intro)
 - [Vue-router](https://router.vuejs.org/installation.html)
+
+### Planejamento
+
+A seguir o link do planejamento do trello e layout do figma: 
+
+- [Trello](https://trello.com/invite/b/16WytOu0/29c0dde7b5f4e65631f737162f6cdcf6/btcurrent-price)
+- [Figma](https://www.figma.com/file/I0xEedCll1dsKIt43AZMHh/BTCurrent-Price?node-id=0%3A1) - Houveram algumas mudanças no layout inicial para o atual.
 
 
