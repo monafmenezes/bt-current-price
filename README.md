@@ -14,3 +14,6 @@
 - [x] Apresenta o preço do Bitcoin na data e hora fornecidas
 - [x] Preço atual das moedas: DACXI, ETH, ATOM e LUNA
 - [x] Apresenta o preço das moedas DACXI, ETH, ATOM e LUNA na data e hora fornecidas
+
+### ✅ Demonstração da aplicação
+Vercel: bt-current-price.vercel.app
