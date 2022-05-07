@@ -1,7 +1,15 @@
 module.exports = {
-  content: [],
+  content: [
+    "src/components/DButton.vue",
+    "src/components/DCard.vue",
+    "src/components/DFooter.vue",
+    "src/components/DHeader.vue",
+    "src/App.vue",
+    "src/views/Date.vue",
+    "src/views/Home.vue",
+    "src/views/Other.vue"
+  ],
   mode: "jit",
-  purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
     screens: {
       sm: "390px",
