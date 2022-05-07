@@ -1,6 +1,7 @@
+ 
+ ![Captura de tela de 2022-05-07 00-57-49](https://user-images.githubusercontent.com/85262397/167237342-9948472b-546f-4f86-aa96-90eaab6451dc.png)
+ 
  # BTCurrent Price 
-
-<img  src="https://user-images.githubusercontent.com/85262397/167220482-a2200fa0-9d90-4dd4-a524-0e38517cd30a.png" alt="btcurrent price" style="margin: auto;"/>
 
 <h1 align="center">
     <a href="https://bt-current-price.vercel.app/">🔗 BTCurrent Price</a>
@@ -16,4 +17,21 @@
 - [x] Apresenta o preço das moedas DACXI, ETH, ATOM e LUNA na data e hora fornecidas
 
 ### ✅ Demonstração da aplicação
-Vercel: bt-current-price.vercel.app
+
+Vercel: [https://bt-current-price.vercel.app](https://bt-current-price.vercel.app)
+
+#### Página Home
+
+![Captura de tela de 2022-05-07 00-53-10](https://user-images.githubusercontent.com/85262397/167237356-2fbce495-477f-4fe0-8f68-567e8510f134.png)
+
+#### Página outras criptomoedas
+
+![Captura de tela de 2022-05-07 01-00-03](https://user-images.githubusercontent.com/85262397/167237388-fd5b1141-4ed5-4624-9e5c-f5a6c72d8eaa.png)
+
+#### Página para solicitar o valor por data e hora fornecidas 
+![Captura de tela de 2022-05-07 01-00-53](https://user-images.githubusercontent.com/85262397/167237476-b7b12269-0d4b-44f5-8a98-503633ae59a1.png)
+![Captura de tela de 2022-05-07 01-01-49](https://user-images.githubusercontent.com/85262397/167237479-89c76de8-3e0f-410b-885a-5e61c91afdbd.png)
+
+
+
+
