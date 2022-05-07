@@ -33,9 +33,9 @@ Vercel: [https://bt-current-price.vercel.app](https://bt-current-price.vercel.ap
 
 ### ✅ Pré-requisitos e como rodar a aplicação/testes
 
-<p>Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
 [Git](https://git-scm.com), [Node.js](https://nodejs.org/en/), [Vue.js](https://vuejs.org/guide/introduction.html), [Yarn](https://classic.yarnpkg.com/en/docs/install#debian-stable). 
 Além disto é bom ter um editor para trabalhar com o código como [VSCode](https://code.visualstudio.com/)
-</p>
+
 
 
