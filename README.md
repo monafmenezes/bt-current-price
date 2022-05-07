@@ -8,7 +8,7 @@
 <p align="center">🚀 Aplicação que mostra em tempo real o valor do Bitcoin BRL e outras criptomoedas como: Atom, Luna, Eth e Dacxi. Neste você também consegue pesquisar o valor do preço em uma data e hora fornecidas.</p>
 <p align="center">🚀 Application that shows in real time the value of Bitcoin BRL and other cryptocurrencies such as: Atom, Luna, Eth and Dacxi. Here you can also search for the price value at a specific date and time.</p>
 
-### Features
+### ✅ Features
 
 - [x] Preço atual do Bitcoin em tempo real
 - [x] Apresenta o preço do Bitcoin na data e hora fornecidas
@@ -54,6 +54,17 @@ $ yarn dev
 
 # O servidor inciará na porta:3000 - acesse <http://localhost:3000>
 ```
+### ✅ Tecnologias utilizadas
 
+### 🛠 Tecnologias
+
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [Vite](https://vitejs.dev/guide/#scaffolding-your-first-vite-project)
+- [Node.js](https://nodejs.org/en/)
+- [Vvue.js](https://vuejs.org/guide/introduction.html)
+- [Tailwind](https://tailwindcss.com/docs/preflight)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
+- [Vue-router](https://router.vuejs.org/installation.html)
 
 
