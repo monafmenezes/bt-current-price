@@ -56,9 +56,8 @@ export default {
   },
   methods: {
     requestAPi() {
-      const [year, mounth, day] = this.info.date.split("-");
-      const [hours, minutes] = this.info.time.split(":");
-      const dateRequest = new Date(+year, mounth - 1, +day, +hours, +minutes);
+      const date = ` ${this.info.date} ${this.info.time}`
+      const dateRequest = new Date(date);
       const unixTimestamp = Date.parse(dateRequest) / 1000;
       const dateAtt = new Date();
       const unixDateAtt = Date.parse(dateAtt) / 1000;
